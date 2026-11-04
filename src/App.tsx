@@ -10,10 +10,8 @@ import { Testimonials } from './components/Testimonials';
 import { AgendaNews } from './components/AgendaNews';
 import { FaqContact } from './components/FaqContact';
 import { Footer } from './components/Footer';
-import { StudentPortalModal } from './components/StudentPortalModal';
 
 export default function App() {
-  const [isPortalOpen, setIsPortalOpen] = useState(false);
   const [preselectedPpdbProgram, setPreselectedPpdbProgram] = useState<string | undefined>();
 
   const handleOpenPpdb = (programTitle?: string) => {
@@ -37,7 +35,6 @@ export default function App() {
     <div className="min-h-screen bg-slate-50 text-slate-800 antialiased selection:bg-[#7cb342]/20 selection:text-emerald-950">
       {/* 3-Zone Top Navigation Bar */}
       <Navbar
-        onOpenPortal={() => setIsPortalOpen(true)}
         onOpenPpdb={() => handleOpenPpdb()}
       />
 
@@ -77,12 +74,6 @@ export default function App() {
 
       {/* Quiet Footer */}
       <Footer />
-
-      {/* Interactive e-Rapor & Student Portal Modal */}
-      <StudentPortalModal
-        isOpen={isPortalOpen}
-        onClose={() => setIsPortalOpen(false)}
-      />
     </div>
   );
 }

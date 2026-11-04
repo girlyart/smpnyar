@@ -212,7 +212,7 @@ export const EXTRACURRICULARS: Extracurricular[] = [
     members: 42,
     description: 'Mempelajari perakitan mikrokontroler, sensor pintar, pemrograman C++, dan kompetisi robot nasional.',
     achievements: ['Juara 1 Indonesia Robotic Olympiad 2025', 'Juara 2 Line Follower Nasional'],
-    image: '/src/assets/images/ekskul_robotika_coding_1793769468822.jpg'
+    image: '/images/ekskul_robotika_coding_1793769468822.jpg'
   },
   {
     id: 'ekskul-2',
@@ -225,7 +225,7 @@ export const EXTRACURRICULARS: Extracurricular[] = [
     members: 85,
     description: 'Penanaman jiwa kepemimpinan mandiri, survival keterampilan luar ruang, pionering, dan sandi kepanduan.',
     achievements: ['Juara Umum Lomba Tingkat (LT-III) 2024', 'Regu Berprestasi Tinggi Tingkat Kota'],
-    image: '/src/assets/images/ekskul_pramuka_penggalang_1793769469919.jpg'
+    image: '/images/ekskul_pramuka_penggalang_1793769469919.jpg'
   },
   {
     id: 'ekskul-3',
@@ -238,7 +238,7 @@ export const EXTRACURRICULARS: Extracurricular[] = [
     members: 55,
     description: 'Latihan teknik dasar dribbling, shooting, kerjasama tim, dan kebugaran atletik berstandar PERBASI.',
     achievements: ['Juara 1 DBL Junior South Jakarta Cup', 'Juara 2 Kejuaraan Antar Pelajar 2025'],
-    image: '/src/assets/images/ekskul_basket_sekolah_1793769470030.jpg'
+    image: '/images/ekskul_basket_sekolah_1793769470030.jpg'
   },
   {
     id: 'ekskul-4',
@@ -251,7 +251,7 @@ export const EXTRACURRICULARS: Extracurricular[] = [
     members: 38,
     description: 'Eksplorasi olah vokal paduan suara, aransemen lagu daerah, serta alat musik kolintang dan orkestra mini.',
     achievements: ['Gold Medal Bali International Choir Festival', 'Penyaji Terbaik FLS2N Tingkat Provinsi'],
-    image: '/src/assets/images/ekskul_paduan_suara_1793769471714.jpg'
+    image: '/images/ekskul_paduan_suara_1793769471714.jpg'
   },
   {
     id: 'ekskul-5',
@@ -264,7 +264,7 @@ export const EXTRACURRICULARS: Extracurricular[] = [
     members: 30,
     description: 'Asah kemampuan berargumen dalam Bahasa Inggris standar Parliamentary Debate, storytelling, dan MUN Junior.',
     achievements: ['Best Speaker National Junior Debate Championship', 'Top 5 Storytelling Se-Jabodetabek'],
-    image: '/src/assets/images/ekskul_english_debate_1793769471297.jpg'
+    image: '/images/ekskul_english_debate_1793769471297.jpg'
   },
   {
     id: 'ekskul-6',
@@ -277,7 +277,7 @@ export const EXTRACURRICULARS: Extracurricular[] = [
     members: 46,
     description: 'Pelatihan pertolongan pertama pada kecelakaan (P3K), kesiapsiagaan bencana, dan kampanye kesehatan remaja.',
     achievements: ['Juara 1 Pertolongan Pertama PMR Madya PMI', 'Sekolah Siaga Sehat Tingkat Nasional'],
-    image: '/src/assets/images/ekskul_pmr_p3k_1793769471361.jpg'
+    image: '/images/ekskul_pmr_p3k_1793769471361.jpg'
   }
 ];
 
@@ -380,7 +380,7 @@ export const TEACHERS: Teacher[] = [
     jamKonsultasi: 'Selasa & Kamis, 09.00 - 11.00 WIB',
     email: 'kepsek@smpnusantaraunggul.sch.id',
     bio: 'Berdedikasi memimpin transformasi Kurikulum Merdeka dan lingkungan sekolah ramah anak yang berwawasan global.',
-    foto: '/src/assets/images/teacher_kepala_sekolah_1793760252276.jpg'
+    foto: '/images/teacher_kepala_sekolah_1793760252276.jpg'
   },
   {
     id: 'guru-2',
@@ -394,7 +394,7 @@ export const TEACHERS: Teacher[] = [
     jamKonsultasi: 'Senin & Rabu, 13.00 - 15.00 WIB',
     email: 'sarah.jenkins@smpnusantaraunggul.sch.id',
     bio: 'Membimbing program Cambridge Lower Secondary dan melatih kemampuan debat bahasa Inggris siswa ke panggung nasional.',
-    foto: '/src/assets/images/teacher_cambridge_english_1793760252105.jpg'
+    foto: '/images/teacher_cambridge_english_1793760252105.jpg'
   },
   {
     id: 'guru-3',
@@ -408,7 +408,7 @@ export const TEACHERS: Teacher[] = [
     jamKonsultasi: 'Rabu & Jumat, 10.00 - 12.00 WIB',
     email: 'a.zulkarnain@smpnusantaraunggul.sch.id',
     bio: 'Membina tim inovasi robotika siswa yang rutin merebut medali emas dalam kompetisi teknologi nasional dan internasional.',
-    foto: '/src/assets/images/teacher_robotics_stem_1793760253179.jpg'
+    foto: '/images/teacher_robotics_stem_1793760253179.jpg'
   },
   {
     id: 'guru-4',
@@ -422,7 +422,7 @@ export const TEACHERS: Teacher[] = [
     jamKonsultasi: 'Senin & Kamis, 08.30 - 10.30 WIB',
     email: 'dewi.anggraini@smpnusantaraunggul.sch.id',
     bio: 'Menjadikan sains praktikum yang menyenangkan dan aktif membimbing riset ilmiah siswa dalam ajang OPSI.',
-    foto: '/src/assets/images/teacher_science_curriculum_1793760253940.jpg'
+    foto: '/images/teacher_science_curriculum_1793760253940.jpg'
   },
   {
     id: 'guru-5',
@@ -436,7 +436,7 @@ export const TEACHERS: Teacher[] = [
     jamKonsultasi: 'Selasa & Jumat, 07.30 - 09.30 WIB',
     email: 'fahmi.ridwan@smpnusantaraunggul.sch.id',
     bio: 'Membimbing hafalan Qur\'an metode mutqin dengan pendekatan yang lembut, ramah anak, dan mengedepankan adab keseharian.',
-    foto: '/src/assets/images/teacher_tahfidz_quran_1793760276590.jpg'
+    foto: '/images/teacher_tahfidz_quran_1793760276590.jpg'
   },
   {
     id: 'guru-6',
@@ -450,7 +450,7 @@ export const TEACHERS: Teacher[] = [
     jamKonsultasi: 'Rabu & Sabtu, 09.00 - 11.00 WIB',
     email: 'hendra.wijaya@smpnusantaraunggul.sch.id',
     bio: 'Menanamkan jiwa sportivitas, daya tahan fisik, serta mengantar tim basket SMP meraih gelar juara DBL Junior.',
-    foto: '/src/assets/images/teacher_sports_coach_1793760277219.jpg'
+    foto: '/images/teacher_sports_coach_1793760277219.jpg'
   },
   {
     id: 'guru-7',
@@ -464,7 +464,7 @@ export const TEACHERS: Teacher[] = [
     jamKonsultasi: 'Selasa & Kamis, 13.00 - 14.30 WIB',
     email: 'clara.hartono@smpnusantaraunggul.sch.id',
     bio: 'Mengembangkan apresiasi musik tradisional dan mengorkestrasi paduan suara sekolah hingga menembus festival paduan suara dunia.',
-    foto: '/src/assets/images/teacher_arts_music_1793760277611.jpg'
+    foto: '/images/teacher_arts_music_1793760277611.jpg'
   },
   {
     id: 'guru-8',
@@ -478,7 +478,7 @@ export const TEACHERS: Teacher[] = [
     jamKonsultasi: 'Senin - Jumat, 08.00 - 14.00 WIB',
     email: 'bk.konseling@smpnusantaraunggul.sch.id',
     bio: 'Menyediakan pendampingan kesehatan mental, konsultasi peminatan karir masa depan, serta bimbingan belajar ramah siswa.',
-    foto: '/src/assets/images/teacher_counselor_psychologist_1793760277480.jpg'
+    foto: '/images/teacher_counselor_psychologist_1793760277480.jpg'
   }
 ];
 

@@ -9,7 +9,7 @@ export const CampusFacilities: React.FC = () => {
       id: 'gedung-kampus',
       name: 'Gedung Sekolah Ramah Anak & Lapangan Olahraga',
       category: 'Infrastruktur Kampus',
-      image: '/src/assets/images/smp_school_campus_1793758792227.jpg',
+      image: '/images/smp_school_campus_1793758792227.jpg',
       badge: 'Green Building Certified',
       description: 'Kampus seluas 1,8 hektar berkonsep taman tropis asri, dilengkapi lapangan multifungsi berstandar FIBA (basket, futsal, bulutangkis), amphitheater luar ruang, dan sistem keamanan CCTV 24 jam terpadu.',
       specs: [
@@ -23,7 +23,7 @@ export const CampusFacilities: React.FC = () => {
       id: 'lab-robotik',
       name: 'Pusat Laboratorium Sains & Robotika Cerdas',
       category: 'Teknologi & Riset',
-      image: '/src/assets/images/smp_robotics_lab_1793758792146.jpg',
+      image: '/images/smp_robotics_lab_1793758792146.jpg',
       badge: 'STEM Certified Lab',
       description: 'Ruang inkubator inovasi tempat siswa bereksplorasi dengan lengan mekanik robotik, mikrokontroler, modul Internet of Things (IoT), workstation komputer bertenaga tinggi, dan stasiun 3D printing.',
       specs: [
@@ -37,7 +37,7 @@ export const CampusFacilities: React.FC = () => {
       id: 'kelas-interaktif',
       name: 'Smart Classroom & Ruang Pembelajaran Kolaboratif',
       category: 'Ruang Kelas Digital',
-      image: '/src/assets/images/smp_bilingual_classroom_1793758792138.jpg',
+      image: '/images/smp_bilingual_classroom_1793758792138.jpg',
       badge: 'Interactive Digital Board',
       description: 'Ruang kelas berpendingin udara yang mengutamakan interaktivitas siswa dengan meja formasi diskusi fleksibel, layar sentuh digital interaktif 75 inci, koneksi fiber optic super cepat, dan pencahayaan ergonomis.',
       specs: [

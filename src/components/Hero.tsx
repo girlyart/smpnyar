@@ -77,7 +77,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenPpdb, onExplorePrograms }) => 
               {/* Seamless Cutout Duo: Siswa & Siswi Berhijab (Enlarged, no background, pure blend) */}
               <div className="relative w-full flex justify-center select-none pt-4">
                 <img
-                  src="/src/assets/images/smp_students_duo_cutout_1793759522237.jpg"
+                  src="/images/smp_students_duo_cutout_1793759522237.jpg"
                   alt="Siswa dan Siswi Berhijab SMP Nusantara Unggul"
                   className="w-full max-w-[520px] sm:max-w-[580px] lg:max-w-[620px] h-auto max-h-[530px] sm:max-h-[570px] object-contain object-bottom pointer-events-none transform transition-transform duration-500 hover:scale-[1.01]"
                   style={{
