@@ -61,7 +61,7 @@ export const Footer: React.FC = () => {
                 <a href="#ekskul" className="hover:text-white transition-colors">Ekstrakurikuler & Prestasi</a>
               </li>
               <li>
-                <a href="#fasilitas" className="hover:text-white transition-colors">Fasilitas Kampus</a>
+                <a href="#fasilitas" className="hover:text-white transition-colors">Fasilitas Sekolah</a>
               </li>
               <li>
                 <a href="#agenda" className="hover:text-white transition-colors">Agenda & Berita</a>

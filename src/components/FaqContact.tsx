@@ -90,7 +90,7 @@ export const FaqContact: React.FC = () => {
                 Layanan Informasi & Lokasi
               </span>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-                Hubungi Kami & Kunjungan Kampus
+                Hubungi Kami & Kunjungan Sekolah
               </h2>
               <p className="text-xs sm:text-sm text-slate-600">
                 Konsultasikan kebutuhan pendidikan putra-putri Anda bersama tim humas kami.
@@ -102,7 +102,7 @@ export const FaqContact: React.FC = () => {
               <div className="bg-gradient-to-br from-[#4d7c0f] to-[#558b2f] text-white p-4.5 rounded-2xl shadow-md shadow-emerald-950/10 border border-emerald-400/30 space-y-1.5">
                 <div className="flex items-center gap-2 text-white font-bold text-xs">
                   <MapPin className="w-4 h-4 text-emerald-200 shrink-0" />
-                  <span className="tracking-wide">Alamat Kampus:</span>
+                  <span className="tracking-wide">Alamat Sekolah:</span>
                 </div>
                 <p className="text-xs text-emerald-50 pl-6 leading-relaxed">
                   {SCHOOL_INFO.alamat}
@@ -173,7 +173,7 @@ export const FaqContact: React.FC = () => {
                       className="w-full px-3.5 py-2.5 text-xs bg-white text-slate-800 rounded-xl focus:outline-none focus:ring-2 focus:ring-white/80 shadow-xs font-medium"
                     >
                       <option value="Informasi PPDB">Pertanyaan Seputar PPDB 2026</option>
-                      <option value="Jadwal Tur Kampus">Permohonan Kunjungan Kampus & Tur Fasilitas</option>
+                      <option value="Jadwal Tur Sekolah">Permohonan Kunjungan Sekolah & Tur Fasilitas</option>
                       <option value="Konsultasi Biaya / Beasiswa">Konsultasi Beasiswa Prestasi</option>
                       <option value="Kerjasama Pendidikan">Kerjasama & Undangan Kompetisi</option>
                     </select>

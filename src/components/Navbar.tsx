@@ -18,10 +18,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPpdb }) => {
           </div>
           <div className="flex flex-col">
             <span className="text-lg sm:text-xl font-bold tracking-tight text-slate-900 whitespace-nowrap">
-              SMP Nusantara Unggul
+              SMP6 JEMBER
             </span>
             <span className="text-[11px] font-medium text-emerald-800 tracking-wide uppercase">
-              Akreditasi A Unggul · Jakarta Selatan
+              Akreditasi A Unggul · Jember, Jawa Timur
             </span>
           </div>
         </a>
@@ -123,7 +123,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPpdb }) => {
               onClick={() => setMobileMenuOpen(false)}
               className="py-2 px-3 rounded-md hover:bg-slate-100"
             >
-              Fasilitas Kampus
+              Fasilitas Sekolah
             </a>
             <a
               href="#agenda"

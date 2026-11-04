@@ -6,12 +6,12 @@ export const CampusFacilities: React.FC = () => {
 
   const facilities = [
     {
-      id: 'gedung-kampus',
+      id: 'gedung-sekolah',
       name: 'Gedung Sekolah Ramah Anak & Lapangan Olahraga',
-      category: 'Infrastruktur Kampus',
+      category: 'Infrastruktur Sekolah',
       image: '/images/smp_school_campus_1793758792227.jpg',
       badge: 'Green Building Certified',
-      description: 'Kampus seluas 1,8 hektar berkonsep taman tropis asri, dilengkapi lapangan multifungsi berstandar FIBA (basket, futsal, bulutangkis), amphitheater luar ruang, dan sistem keamanan CCTV 24 jam terpadu.',
+      description: 'Sekolah seluas 1,8 hektar berkonsep taman tropis asri, dilengkapi lapangan multifungsi berstandar FIBA (basket, futsal, bulutangkis), amphitheater luar ruang, dan sistem keamanan CCTV 24 jam terpadu.',
       specs: [
         'Lapangan Basket & Futsal Berstandar Nasional',
         'Area Terbuka Hijau & Gazebo Diskusi Siswa',

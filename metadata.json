@@ -1,6 +1,6 @@
 {
   "name": "SMP Nusantara Unggul - Website Resmi Sekolah",
-  "description": "Website resmi dan portal akademik SMP Nusantara Unggul. Informasi kurikulum, pendaftaran PPDB online, dewan guru, ekstrakurikuler, dan fasilitas sekolah modern.",
+  "description": "Website resmi dan portal informasi SMP6 JEMBER. Informasi kurikulum, pendaftaran PPDB online, dewan guru, ekstrakurikuler, dan fasilitas sekolah modern.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
