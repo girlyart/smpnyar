@@ -16,7 +16,7 @@ export const Testimonials: React.FC = () => {
             Setiap Siswa Berharga & Bertumbuh Nyata
           </h2>
           <p className="text-sm sm:text-base text-slate-600">
-            Dukungan penuh dari orang tua murid dan kesuksesan alumni kami di jenjang SMA favorit adalah bukti nyata kualitas pendidikan holistik SMP6 JEMBER.
+            Dukungan penuh dari orang tua murid dan kesuksesan alumni kami di jenjang sekolah favorit adalah bukti nyata kualitas pendidikan holistik SD NEGERI JEMBER.
           </p>
         </div>
 

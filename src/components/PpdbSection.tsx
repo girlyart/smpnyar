@@ -79,7 +79,7 @@ export const PpdbSection: React.FC<PpdbSectionProps> = ({ preselectedProgram }) 
     const randomSuffix = Math.floor(100 + Math.random() * 900);
     const newReg: PpdbRegistration = {
       id: `PPDB-2026-${randomSuffix}`,
-      nomorPendaftaran: `PPDB-SMP6JBR-0${randomSuffix}`,
+      nomorPendaftaran: `PPDB-SDNJBR-0${randomSuffix}`,
       namaLengkap: formData.namaLengkap,
       nisn: formData.nisn,
       asalSekolah: formData.asalSekolah,
@@ -158,7 +158,7 @@ export const PpdbSection: React.FC<PpdbSectionProps> = ({ preselectedProgram }) 
                         Tanda Bukti Registrasi PPDB 2026
                       </h3>
                       <p className="text-xs text-emerald-100 mt-0.5">
-                        Simpan atau cetak nomor pendaftaran ini untuk keperluan daftar ulang di SMP6 JEMBER.
+                        Simpan atau cetak nomor pendaftaran ini untuk keperluan daftar ulang di SD NEGERI JEMBER.
                       </p>
                     </div>
                     
@@ -209,7 +209,7 @@ export const PpdbSection: React.FC<PpdbSectionProps> = ({ preselectedProgram }) 
                   {/* Instructions */}
                   <div className="bg-emerald-950/40 border border-white/25 p-4 rounded-xl text-xs text-emerald-50 space-y-1 mb-6 backdrop-blur-sm">
                     <span className="font-bold block text-white">Tahap Selanjutnya:</span>
-                    <p>1. Jadwal wawancara & tes penempatan minat diadakan tanggal 10 Desember 2026 di Aula Utama SMP6 JEMBER.</p>
+                    <p>1. Jadwal wawancara & tes penempatan minat diadakan tanggal 10 Desember 2026 di Aula Utama SD NEGERI JEMBER.</p>
                     <p>2. Konfirmasi pendaftaran juga telah dikirimkan ke nomor WhatsApp orang tua.</p>
                   </div>
 
@@ -547,7 +547,7 @@ export const PpdbSection: React.FC<PpdbSectionProps> = ({ preselectedProgram }) 
                   Pelacak Status Kelulusan & Verifikasi
                 </h3>
                 <p className="text-xs sm:text-sm text-emerald-100 mb-6">
-                  Ketik Nomor Pendaftaran (cth: PPDB-SMP6JBR-0081) atau NISN 10 digit untuk memeriksa status verifikasi berkas dan penerimaan siswa di SMP6 JEMBER.
+                  Ketik Nomor Pendaftaran (cth: PPDB-SDNJBR-0081) atau NISN 10 digit untuk memeriksa status verifikasi berkas dan penerimaan siswa di SD NEGERI JEMBER.
                 </p>
 
                 <form onSubmit={handleSearchStatus} className="flex gap-2 mb-4">
@@ -648,7 +648,7 @@ export const PpdbSection: React.FC<PpdbSectionProps> = ({ preselectedProgram }) 
 
                     {searchResult.status === 'Diterima' && (
                       <div className="p-3 bg-white/20 backdrop-blur-sm rounded-xl text-white text-xs font-medium border border-white/30">
-                        Selamat! Anda dinyatakan LULUS seleksi PPDB SMP6 JEMBER. Silakan lakukan proses daftar ulang online sebelum 15 Desember 2026.
+                        Selamat! Anda dinyatakan LULUS seleksi PPDB SD NEGERI JEMBER. Silakan lakukan proses daftar ulang online sebelum 15 Desember 2026.
                       </div>
                     )}
                   </div>
