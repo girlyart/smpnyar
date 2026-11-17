@@ -18,7 +18,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPpdb }) => {
           </div>
           <div className="flex flex-col">
             <span className="text-lg sm:text-xl font-bold tracking-tight text-slate-900 whitespace-nowrap">
-              SD NEGERI JEMBER
+              SMP NEGERI JEMBER
             </span>
             <span className="text-[11px] font-medium text-emerald-800 tracking-wide uppercase">
               Akreditasi A Unggul · Jember, Jawa Timur

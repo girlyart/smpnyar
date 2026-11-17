@@ -1,14 +1,14 @@
 import { Program, StudentReport, PpdbRegistration, Extracurricular, SchoolNews, Teacher } from '../types';
 
 export const SCHOOL_INFO = {
-  name: 'SD NEGERI JEMBER',
+  name: 'SMP NEGERI JEMBER',
   tagline: 'Mencetak Generasi Berakhlak Mulia, Cerdas, dan Berwawasan Global',
   npsn: '20523821',
   akreditasi: 'A (Unggul) 98/100',
   alamat: 'Jl. Bengawan Solo No. 6, Tegal Boto Lor, Sumbersari, Jember, Jawa Timur 68121',
   telepon: '(0331) 336-789',
   whatsapp: '+62 812-3456-7890',
-  email: 'info@sdnegerijember.sch.id',
+  email: 'info@smpnegerijember.sch.id',
   kepalaSekolah: 'Dr. Hj. Siti Rahmawati, M.Pd.',
   kurikulum: 'Kurikulum Merdeka Mandiri Berbagi & Cambridge Secondary Preparation',
 };
@@ -152,7 +152,7 @@ export const DEMO_STUDENT_REPORTS: StudentReport[] = [
 export const INITIAL_PPDB_LIST: PpdbRegistration[] = [
   {
     id: 'PPDB-2026-001',
-    nomorPendaftaran: 'PPDB-SDNJBR-0081',
+    nomorPendaftaran: 'PPDB-SMPNJBR-0081',
     namaLengkap: 'Kayla Safira Andini',
     nisn: '0092348172',
     asalSekolah: 'SD Negeri Menteng 01 Pagi',
@@ -164,7 +164,7 @@ export const INITIAL_PPDB_LIST: PpdbRegistration[] = [
   },
   {
     id: 'PPDB-2026-002',
-    nomorPendaftaran: 'PPDB-SDNJBR-0082',
+    nomorPendaftaran: 'PPDB-SMPNJBR-0082',
     namaLengkap: 'Muhammad Arka Daniswara',
     nisn: '0091873641',
     asalSekolah: 'SD Islam Al-Azhar Pusat',
@@ -176,7 +176,7 @@ export const INITIAL_PPDB_LIST: PpdbRegistration[] = [
   },
   {
     id: 'PPDB-2026-003',
-    nomorPendaftaran: 'PPDB-SDNJBR-0083',
+    nomorPendaftaran: 'PPDB-SMPNJBR-0083',
     namaLengkap: 'Nadia Zahrani Putri',
     nisn: '0098765412',
     asalSekolah: 'SDIT Nurul Fikri',
@@ -188,7 +188,7 @@ export const INITIAL_PPDB_LIST: PpdbRegistration[] = [
   },
   {
     id: 'PPDB-2026-004',
-    nomorPendaftaran: 'PPDB-SDNJBR-0084',
+    nomorPendaftaran: 'PPDB-SMPNJBR-0084',
     namaLengkap: 'Rizky Jonathan Siregar',
     nisn: '0094567890',
     asalSekolah: 'SD Tarakanita 1 Jakarta',
@@ -287,7 +287,7 @@ export const TESTIMONIALS = [
     nama: 'Dr. Ir. Hendro Prabowo',
     peran: 'Orang Tua Siswa (Aisyah Putri - Kelas VIII)',
     rating: 5,
-    kutipan: 'SD NEGERI JEMBER memberikan keseimbangan luar biasa antara prestasi akademik dan penanaman adab. Putri kami tidak hanya percaya diri berbicara dalam forum internasional, namun juga santun dan tekun beribadah.',
+    kutipan: 'SMP NEGERI JEMBER memberikan keseimbangan luar biasa antara prestasi akademik dan penanaman adab. Putri kami tidak hanya percaya diri berbicara dalam forum internasional, namun juga santun dan tekun beribadah.',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80',
     tags: 'Wali Murid Bilingual'
   },
@@ -296,7 +296,7 @@ export const TESTIMONIALS = [
     nama: 'Bagus Wicaksono',
     peran: 'Alumni 2023 · Kini Siswa Unggulan SMAN 8 Jakarta',
     rating: 5,
-    kutipan: 'Fondasi sains dan kemampuan riset yang saya pelajari di Lab STEM SD NEGERI JEMBER sangat membantu saya saat masuk SMA favorit. Guru-gurunya membimbing kami dengan penuh kesabaran dan standar tinggi.',
+    kutipan: 'Fondasi sains dan kemampuan riset yang saya pelajari di Lab STEM SMP NEGERI JEMBER sangat membantu saya saat masuk SMA favorit. Guru-gurunya membimbing kami dengan penuh kesabaran dan standar tinggi.',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80',
     tags: 'Alumni Berprestasi'
   },
@@ -319,17 +319,17 @@ export const SCHOOL_NEWS: SchoolNews[] = [
     date: '02 November 2026',
     author: 'Panitia PPDB',
     excerpt: 'Pendaftaran gelombang pertama dibuka untuk jalur Zonasi, Prestasi Akademik/Non-Akademik, serta Beasiswa Tahfidz Al-Qur\'an.',
-    content: 'SD NEGERI JEMBER secara resmi membuka Penerimaan Peserta Didik Baru (PPDB) Tahun Ajaran 2026/2027. Mengacu pada petunjuk teknis dinas pendidikan, pendaftaran dilaksanakan secara daring terpusat melalui portal resmi ini. Calon peserta didik dapat memilih jalur zonasi domisili, jalur prestasi nilai rapor SD, piagam kejuaraan, atau afirmasi keluarga prasejahtera. Kuota tahun ini disiapkan untuk 8 rombongan belajar dengan fasilitas smart classroom terpadu.',
+    content: 'SMP NEGERI JEMBER secara resmi membuka Penerimaan Peserta Didik Baru (PPDB) Tahun Ajaran 2026/2027. Mengacu pada petunjuk teknis dinas pendidikan, pendaftaran dilaksanakan secara daring terpusat melalui portal resmi ini. Calon peserta didik dapat memilih jalur zonasi domisili, jalur prestasi nilai rapor SD, piagam kejuaraan, atau afirmasi keluarga prasejahtera. Kuota tahun ini disiapkan untuk 8 rombongan belajar dengan fasilitas smart classroom terpadu.',
     readTime: '3 menit'
   },
   {
     id: 'news-2',
-    title: 'Tim Robotika SD NEGERI JEMBER Sabet Juara 1 Nasional Rancang Bangun IoT',
+    title: 'Tim Robotika SMP NEGERI JEMBER Sabet Juara 1 Nasional Rancang Bangun IoT',
     category: 'Prestasi',
     date: '28 Oktober 2026',
     author: 'Humas Sekolah',
     excerpt: 'Inovasi alat penyiram hidroponik otomatis berbasis sensor kelembapan tanah karya siswa kelas VIII berhasil memikat dewan juri.',
-    content: 'Prestasi membanggakan kembali diraih delegasi siswa SD NEGERI JEMBER dalam ajang Kompetisi Teknologi Pelajar Nasional 2026 di ICE BSD. Tim yang dipimpin Aisyah Putri Azzahra dan Muhammad Arka menciptakan sistem smart irrigation yang ramah lingkungan dan hemat daya. Kepala Sekolah mengapresiasi kerja keras siswa serta dedikasi guru pembimbing laboratorium robotik.',
+    content: 'Prestasi membanggakan kembali diraih delegasi siswa SMP NEGERI JEMBER dalam ajang Kompetisi Teknologi Pelajar Nasional 2026 di ICE BSD. Tim yang dipimpin Aisyah Putri Azzahra dan Muhammad Arka menciptakan sistem smart irrigation yang ramah lingkungan dan hemat daya. Kepala Sekolah mengapresiasi kerja keras siswa serta dedikasi guru pembimbing laboratorium robotik.',
     readTime: '4 menit'
   },
   {
@@ -346,7 +346,7 @@ export const SCHOOL_NEWS: SchoolNews[] = [
 
 export const FAQS = [
   {
-    q: 'Kapan periode pendaftaran PPDB SD NEGERI JEMBER 2026/2027 dibuka?',
+    q: 'Kapan periode pendaftaran PPDB SMP NEGERI JEMBER 2026/2027 dibuka?',
     a: 'Pendaftaran PPDB Gelombang I dibuka mulai tanggal 1 November hingga 20 Desember 2026. Calon siswa dapat mendaftar langsung secara online melalui situs ini atau datang langsung ke Helpdesk PPDB di gedung tata usaha sekolah pada hari kerja pukul 08.00 - 15.00 WIB.'
   },
   {
@@ -378,7 +378,7 @@ export const TEACHERS: Teacher[] = [
     pengalaman: '24 Tahun Pengabdian',
     sertifikasi: 'Kepala Sekolah Penggerak Nasional',
     jamKonsultasi: 'Selasa & Kamis, 09.00 - 11.00 WIB',
-    email: 'kepsek@sdnegerijember.sch.id',
+    email: 'kepsek@smpnegerijember.sch.id',
     bio: 'Berdedikasi memimpin transformasi Kurikulum Merdeka dan lingkungan sekolah ramah anak yang berwawasan global.',
     foto: '/images/teacher_kepala_sekolah_1793760252276.jpg'
   },
@@ -392,7 +392,7 @@ export const TEACHERS: Teacher[] = [
     pengalaman: '11 Tahun Mengajar',
     sertifikasi: 'Cambridge Assessment International Education (CAIE)',
     jamKonsultasi: 'Senin & Rabu, 13.00 - 15.00 WIB',
-    email: 'sarah.jenkins@sdnegerijember.sch.id',
+    email: 'sarah.jenkins@smpnegerijember.sch.id',
     bio: 'Membimbing program Cambridge Lower Secondary dan melatih kemampuan debat bahasa Inggris siswa ke panggung nasional.',
     foto: '/images/teacher_cambridge_english_1793760252105.jpg'
   },
@@ -406,7 +406,7 @@ export const TEACHERS: Teacher[] = [
     pengalaman: '14 Tahun Mengajar',
     sertifikasi: 'Pelatih Robotika Nasional & Certified Python Educator',
     jamKonsultasi: 'Rabu & Jumat, 10.00 - 12.00 WIB',
-    email: 'a.zulkarnain@sdnegerijember.sch.id',
+    email: 'a.zulkarnain@smpnegerijember.sch.id',
     bio: 'Membina tim inovasi robotika siswa yang rutin merebut medali emas dalam kompetisi teknologi nasional dan internasional.',
     foto: '/images/teacher_robotics_stem_1793760253179.jpg'
   },
@@ -420,7 +420,7 @@ export const TEACHERS: Teacher[] = [
     pengalaman: '13 Tahun Mengajar',
     sertifikasi: 'Sertifikasi Pendidik Profesional & Pembina Olimpiade Sains',
     jamKonsultasi: 'Senin & Kamis, 08.30 - 10.30 WIB',
-    email: 'dewi.anggraini@sdnegerijember.sch.id',
+    email: 'dewi.anggraini@smpnegerijember.sch.id',
     bio: 'Menjadikan sains praktikum yang menyenangkan dan aktif membimbing riset ilmiah siswa dalam ajang OPSI.',
     foto: '/images/teacher_science_curriculum_1793760253940.jpg'
   },
@@ -434,7 +434,7 @@ export const TEACHERS: Teacher[] = [
     pengalaman: '10 Tahun Mengajar',
     sertifikasi: 'Sanad Hafalan Al-Qur\'an 30 Juz Mutqin',
     jamKonsultasi: 'Selasa & Jumat, 07.30 - 09.30 WIB',
-    email: 'fahmi.ridwan@sdnegerijember.sch.id',
+    email: 'fahmi.ridwan@smpnegerijember.sch.id',
     bio: 'Membimbing hafalan Qur\'an metode mutqin dengan pendekatan yang lembut, ramah anak, dan mengedepankan adab keseharian.',
     foto: '/images/teacher_tahfidz_quran_1793760276590.jpg'
   },
@@ -448,7 +448,7 @@ export const TEACHERS: Teacher[] = [
     pengalaman: '9 Tahun Mengajar',
     sertifikasi: 'Lisensi Pelatih Bola Basket PERBASI B & Kebugaran Remaja',
     jamKonsultasi: 'Rabu & Sabtu, 09.00 - 11.00 WIB',
-    email: 'hendra.wijaya@sdnegerijember.sch.id',
+    email: 'hendra.wijaya@smpnegerijember.sch.id',
     bio: 'Menanamkan jiwa sportivitas, daya tahan fisik, serta mengantar tim basket SMP meraih gelar juara DBL Junior.',
     foto: '/images/teacher_sports_coach_1793760277219.jpg'
   },
@@ -462,7 +462,7 @@ export const TEACHERS: Teacher[] = [
     pengalaman: '8 Tahun Mengajar',
     sertifikasi: 'Kondektur Paduan Suara Tingkat Internasional',
     jamKonsultasi: 'Selasa & Kamis, 13.00 - 14.30 WIB',
-    email: 'clara.hartono@sdnegerijember.sch.id',
+    email: 'clara.hartono@smpnegerijember.sch.id',
     bio: 'Mengembangkan apresiasi musik tradisional dan mengorkestrasi paduan suara sekolah hingga menembus festival paduan suara dunia.',
     foto: '/images/teacher_arts_music_1793760277611.jpg'
   },
@@ -476,7 +476,7 @@ export const TEACHERS: Teacher[] = [
     pengalaman: '19 Tahun Pengabdian',
     sertifikasi: 'Psikolog Klinis Anak & Remaja HIMPSI',
     jamKonsultasi: 'Senin - Jumat, 08.00 - 14.00 WIB',
-    email: 'bk.konseling@sdnegerijember.sch.id',
+    email: 'bk.konseling@smpnegerijember.sch.id',
     bio: 'Menyediakan pendampingan kesehatan mental, konsultasi peminatan karir masa depan, serta bimbingan belajar ramah siswa.',
     foto: '/images/teacher_counselor_psychologist_1793760277480.jpg'
   }

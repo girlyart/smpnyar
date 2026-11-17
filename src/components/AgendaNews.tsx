@@ -140,7 +140,7 @@ export const AgendaNews: React.FC = () => {
             <div className="py-4 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
               <p>{selectedArticle.content}</p>
               <div className="p-3 bg-slate-50 rounded-xl border border-slate-100 text-xs text-slate-500">
-                Penulis: <strong>{selectedArticle.author}</strong> · Bagian Hubungan Masyarakat SD NEGERI JEMBER
+                Penulis: <strong>{selectedArticle.author}</strong> · Bagian Hubungan Masyarakat SMP NEGERI JEMBER
               </div>
             </div>
 
